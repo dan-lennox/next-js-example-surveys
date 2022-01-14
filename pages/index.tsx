@@ -15,7 +15,7 @@ const Home: NextPage<Props> = ({ surveys }) => {
   )
 }
 
-// This is run once initially at build time.
+// This renders this page once at build time.
 export async function getStaticProps() {
   return {
     props: {
